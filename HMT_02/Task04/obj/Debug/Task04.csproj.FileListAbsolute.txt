@@ -1,0 +1,7 @@
+C:\Users\Настюшка\Desktop\Юниверс\3.1 и 3.2\Курс ЕПАМ\EPAM_Ext_Lab_Q4_2017_Shuklina_Anastasiya\HMT_02\Task04\bin\Debug\Task04.exe
+C:\Users\Настюшка\Desktop\Юниверс\3.1 и 3.2\Курс ЕПАМ\EPAM_Ext_Lab_Q4_2017_Shuklina_Anastasiya\HMT_02\Task04\bin\Debug\Task04.pdb
+C:\Users\Настюшка\Desktop\Юниверс\3.1 и 3.2\Курс ЕПАМ\EPAM_Ext_Lab_Q4_2017_Shuklina_Anastasiya\HMT_02\Task04\obj\Debug\Task04.exe
+C:\Users\Настюшка\Desktop\Юниверс\3.1 и 3.2\Курс ЕПАМ\EPAM_Ext_Lab_Q4_2017_Shuklina_Anastasiya\HMT_02\Task04\obj\Debug\Task04.pdb
+C:\Users\Настюшка\Desktop\Юниверс\3.1 и 3.2\Курс ЕПАМ\EPAM_Ext_Lab_Q4_2017_Shuklina_Anastasiya\HMT_02\Task04\obj\Debug\Task04.csprojResolveAssemblyReference.cache
+C:\Users\Настюшка\Desktop\Юниверс\3.1 и 3.2\HMT_02\Task04\obj\Debug\Task04.exe
+C:\Users\Настюшка\Desktop\Юниверс\3.1 и 3.2\HMT_02\Task04\obj\Debug\Task04.pdb

@@ -24,7 +24,7 @@ namespace Task01
             }
 
             int max = 0;
-            int min = 11;
+            int min = 10000;
 
             for (int j = 0; j < array.Length; j++)
             {

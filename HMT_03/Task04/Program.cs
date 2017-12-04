@@ -11,25 +11,25 @@ namespace Task04
     {
         private static void Main(string[] args)
         {
-            int[,] array = new int[3, 3];
-            int sum = 0;
+            int[,] array = new int[3, 3];//todo pn хардкод
+			int sum = 0;
             Random r = new Random();
             Console.WriteLine("Начальный массив: ");
 
-            for (int i = 0; i < 3; i++)
-            {
-                for (int j = 0; j < 3; j++)
-                {
+            for (int i = 0; i < 3; i++)//todo pn хардкод
+			{
+                for (int j = 0; j < 3; j++)//todo pn хардкод
+				{
                     array[i, j] = r.Next(50);
                     Console.Write(array[i, j] + " ");
                 }
             }
 
             Console.WriteLine("\n" + "\nЭлементы, стоящие на четных позициях: ");
-            for (int i = 0; i < 3; i++)
-            {
-                for (int j = 0; j < 3; j++)
-                {
+            for (int i = 0; i < 3; i++)//todo pn хардкод
+			{
+                for (int j = 0; j < 3; j++)//todo pn хардкод
+				{
                     if ((i + j) % 2 == 0)
                     {
                         Console.Write(array[i, j] + " ");

@@ -19,14 +19,14 @@ namespace Task01
 
             for (int i = 0; i < array.Length; i++)
             {
-                array[i] = r.Next(100);
+                array[i] = r.Next(100);//todo pn хардкод
                 Console.Write(array[i] + " ");
             }
 
             int max = 0;
-            int min = 10000;
+            int min = 10000;//todo pn хардкод
 
-            for (int j = 0; j < array.Length; j++)
+			for (int j = 0; j < array.Length; j++)
             {
                 if (array[j] > max)
                 {

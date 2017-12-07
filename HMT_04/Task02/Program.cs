@@ -9,6 +9,7 @@ namespace Task02
 {
     using System;
     using System.Linq;
+    using System.Text;
 
     internal class Program
     {
@@ -19,18 +20,17 @@ namespace Task02
             Console.WriteLine("Введите вторую строку: ");
             string str2 = Console.ReadLine();
 
-            string finalStr = string.Empty;
+            StringBuilder finalStr = new StringBuilder();
 
             foreach (char symbol in str1)
             {
                 if (!str2.Contains(symbol))
                 {
-                    finalStr += symbol;
+                    finalStr.Append(symbol);
                 }
                 else
                 {
-                    finalStr += symbol;
-                    finalStr += symbol;
+                    finalStr.Append(symbol, 2); 
                 }
             }
 

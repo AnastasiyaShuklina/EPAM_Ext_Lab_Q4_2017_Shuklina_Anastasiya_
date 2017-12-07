@@ -20,13 +20,13 @@ namespace Task02
             {
                 for (int j = n - i; j < n - i; j++)
                 {
-                    Console.Write("*");
+                    Console.Write("*");//todo pn хардкод
                 }
 
                 for (int j = -1; j < n - i; j++)
                 {
-                    Console.Write("*");
-                }
+                    Console.Write("*");//todo pn хардкод
+				}
 
                 Console.WriteLine();
             }

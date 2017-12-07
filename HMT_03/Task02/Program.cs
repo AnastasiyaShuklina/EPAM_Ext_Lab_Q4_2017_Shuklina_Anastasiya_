@@ -20,8 +20,8 @@ namespace Task02
                 {
                     for (int k = 0; k < 3; k++)
                     {
-                        array[i, j, k] = r.Next(-50, 50);
-                        Console.Write(array[i, j, k] + " ");
+                        array[i, j, k] = r.Next(-50, 50);//todo pn хардкод
+						Console.Write(array[i, j, k] + " ");
                     }
                 }
             }

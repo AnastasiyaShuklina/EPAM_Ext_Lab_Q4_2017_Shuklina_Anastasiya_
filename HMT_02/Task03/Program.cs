@@ -13,9 +13,9 @@ namespace Task03
         private static void Main(string[] args)
         {
             Console.Write("Enter N: ");
-            int n = int.Parse(Console.ReadLine());
+            int n = int.Parse(Console.ReadLine());//todo pn возможна исключительная ситуация
 
-            for (int i = n; i > 0; i--)
+			for (int i = n; i > 0; i--)
             {
                 for (int j = n - i; j < n; j++)
                 {
@@ -24,13 +24,13 @@ namespace Task03
 
                 for (int j = -1; j < n - i; j++)
                 {
-                    Console.Write("*");
-                }
+                    Console.Write("*");//todo pn хардкод
+				}
 
                 for (int j = 0; j < n - i; j++)
                 {
-                    Console.Write("*");
-                }
+                    Console.Write("*");//todo pn хардкод
+				}
 
                 Console.WriteLine();
             }

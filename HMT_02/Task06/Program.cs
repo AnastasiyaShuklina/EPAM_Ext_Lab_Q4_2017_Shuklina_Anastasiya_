@@ -27,8 +27,8 @@ namespace Task06
             TextSelection selection2 = TextSelection.italic;
             TextSelection selection3 = TextSelection.underline;
 
-            string[] parameters = { "None", "Bold", "Italic", "Underline" };
-            string parameter = parameters[0];
+            string[] parameters = { "None", "Bold", "Italic", "Underline" };//todo pn хардкод
+			string parameter = parameters[0];
 
             do
             {
@@ -43,14 +43,14 @@ namespace Task06
                 switch (index)
                 {
                     case 1:
-                        parameters[1] = "Bold";
-                        break;
+                        parameters[1] = "Bold";//todo pn хардкод
+						break;
                     case 2:
-                        parameters[2] = "Italic";
-                        break;
+                        parameters[2] = "Italic";//todo pn хардкод
+						break;
                     case 3:
-                        parameters[3] = "Underline";
-                        break;
+                        parameters[3] = "Underline";//todo pn хардкод
+						break;
                 }
             }
             while (Console.ReadKey().Key != ConsoleKey.Escape);

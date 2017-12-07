@@ -16,9 +16,9 @@ namespace Task04
         private static void Main(string[] args) /* не доделана */
         {
             Console.Write("Enter N: ");
-            int n = int.Parse(Console.ReadLine());
+            int n = int.Parse(Console.ReadLine());//todo pn возможна исключительная ситуация
 
-            for (int i = 0; i < n; i++)
+			for (int i = 0; i < n; i++)
             {
                 int n1 = i + 1;
                 for (int j = 0; j < n1; j++)

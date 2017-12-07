@@ -16,8 +16,8 @@ namespace Task03
 
             for (int i = 0; i < array.Length; i++)
             {
-                array[i] = r.Next(-50, 50);
-                Console.Write(array[i] + " ");
+                array[i] = r.Next(-50, 50);//todo pn хардкод
+				Console.Write(array[i] + " ");
             }
 
             for (int i = 0; i < array.Length; i++)

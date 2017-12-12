@@ -16,7 +16,7 @@ namespace Task01
             Console.WriteLine("Введите строку");
             string str = Console.ReadLine();
 
-            string[] words = str.Split(new[] { ' ', '!', '?', ',', '.', '-', ':', ';', '"' }, StringSplitOptions.RemoveEmptyEntries);
+            string[] words = str.Split(new[] { ' ', '!', '?', ',', '.', '-', ':', ';', '"' }, StringSplitOptions.RemoveEmptyEntries);//todo pn костыль. Char.IsSeparator
 
             int lenght = words.Aggregate(0, (count, nextWord) => count += nextWord.Length) / words.Length;
 

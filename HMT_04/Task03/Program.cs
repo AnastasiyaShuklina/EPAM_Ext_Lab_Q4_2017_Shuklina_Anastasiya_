@@ -24,7 +24,7 @@ namespace Task03
         {
             string str = string.Empty;
 
-            for (int n = 10000; n < 250001; n *= 5)
+            for (int n = 10000; n < 250001; n *= 5)//todo pn хардкод
             {
                 Console.WriteLine("При N = {0} ", n);
 
